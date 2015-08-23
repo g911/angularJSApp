@@ -1,0 +1,16 @@
+<a href="#home"> Card </a>
+<div class="centerClass">
+    <table border="1">
+        <tr ng-repeat="item in getData()">
+            <td>{{item.date}}</td>
+            <td>{{item.operation}}</td>
+            <td>{{item.result}}</td>
+            <td>
+                <button ng-click="removeById(item.id)">
+                    <img ng-src="res/delete.png" width="50" height="50">
+                </button>
+            </td>
+        </tr>
+    </table>
+
+</div>

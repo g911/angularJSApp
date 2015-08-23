@@ -1,0 +1,37 @@
+body{
+    background-color: dodgerblue;
+    color: white;
+}
+.centerClass{
+    font-size: xx-large;
+    position: absolute;
+    left: 50%;
+    margin-left: -100px;
+}
+.buttonBlue {
+    width: 170px;
+    font-size: large;
+    text-align: center;
+    margin: auto;
+    border:4px solid white;
+    padding: 10px;
+    background-color: dodgerblue;
+    color: white;
+    align-self: center;
+}
+.bottom {
+    background-color: white;
+    color: black;
+    text-align: center;
+    margin: auto;
+    /*border:1px solid black; */
+    padding: 10px;
+}
+
+.buttons{
+    width: 100%;
+}
+
+.tableClass{
+    width: 350px;
+}
